@@ -58,11 +58,6 @@ article {
 
 /* Buttons styles */
 
-.buttons {
-    display: flex;
-    justify-content: space-between;
-}
-
 button {
     outline: 0;
     cursor: pointer;
@@ -96,16 +91,22 @@ button:hover {
     font-size: 115%;
 }
 
+.guide__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Quiz section */
 .quiz__header {
     display: flex;
     justify-content: flex-end;
 }
 
-.quiz__info {
+.quiz__header--label {
     background: #f6f6f7;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+
 }
 
 .quiz__title {
@@ -151,6 +152,11 @@ button:hover {
     color: #721c24;
 }
 
+.quiz__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Utilities */
 .disabled {
     pointer-events: none;
@@ -160,7 +166,7 @@ button:hover {
 /* Media queries */
 
 @media screen and (min-width: 768px) {
-    .quiz-container {
+    .quiz__container {
         min-width: 55%;
         max-width: 75%;
 
