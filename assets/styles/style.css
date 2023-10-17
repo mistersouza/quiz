@@ -163,3 +163,29 @@ button:hover {
     pointer-events: none;
     opacity: 0.5;
 }
+
+/* Media queries */
+
+@media screen and (min-width: 768px) {
+    .quiz-container {
+        min-width: 55%;
+        max-width: 75%;
+
+    }
+
+    .home__title {
+        font-size: 200%;
+    }
+
+    .guide__title {
+        font-size: 150%;
+    }
+
+    p {
+        font-size: 115%;
+    }
+
+    button {
+        font-size: 115%;
+    }
+}
