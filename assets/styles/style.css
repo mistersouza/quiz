@@ -157,6 +157,11 @@ button:hover {
     justify-content: space-between;
 }
 
+.quiz__footer--label {
+    display: flex;
+    gap: .25rem;
+}
+
 /* Utilities */
 .disabled {
     pointer-events: none;

@@ -2,7 +2,6 @@ const intQuiz = document.querySelector('.home__button');
 const quitQuiz = document.querySelector('.guide__button--quit');
 const playQuiz = document.querySelector('.guide__button--play');
 
-const back = document.querySelector('.quiz__button--back');
 const next = document.querySelector('.quiz__button--next');
 
 let options;
@@ -52,13 +51,17 @@ playQuiz.addEventListener('click', () => {
 });
 
 
-
 next.addEventListener('click', () => {
-    let question = Number.parseInt(document.querySelector('.quiz__info--question').innerHTML);
-    if (question < 5) document.querySelector('.quiz__info--question').innerHTML = ++question;
+    let question = Number.parseInt(document.querySelector('.quiz__footer--count').innerHTML);
+    if (question < 5) {
+        document.querySelector('.quiz__footer--count').innerHTML = ++question;
+        loadQuestions(question);
+    }
     if (question == 5) next.innerText = 'grade()';
-    loadQuestions(question);
 });
+
+
+
 // Check answer
 document.querySelectorAll('.quiz__option').forEach(option => {
     option.addEventListener('click', (event) => {
