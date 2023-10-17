@@ -59,6 +59,7 @@ article {
 /* Buttons styles */
 
 button {
+    pointer-events: auto;
     outline: 0;
     cursor: pointer;
     text-align: center;

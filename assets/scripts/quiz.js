@@ -52,7 +52,6 @@ function loadQuestions(index) {
 playQuiz.addEventListener('click', () => {
     // load first round
     loadQuestions(0);
-    // Disable 'back' button on the right round. 
     document.querySelector('#quiz').scrollIntoView({ behavior: 'smooth' });
 });
 
