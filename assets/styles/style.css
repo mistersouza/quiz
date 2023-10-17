@@ -157,3 +157,9 @@ button:hover {
     background: #f8d7da;
     color: #721c24;
 }
+
+/* Utilities */
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
