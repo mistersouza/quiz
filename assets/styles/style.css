@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/* Styles reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* General */
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #1e3948;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+p,
+h1,
+h2 {
+    overflow-wrap: break-word;
+}
+
+p {
+    font-size: 85%;
+    color: #1e3948;
+    font-weight: 300;
+}
+
+main {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 55%;
+    margin: 0 auto;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Buttons styles */
+button {
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #1e3948;
+    padding: 0.5rem 1rem;
+    color: #1e3948;
+    background: transparent;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 100%;
+
+    align-self: flex-end;
+}
+
+button:hover {
+    background: #f6f6f7;
+    outline: 1px solid transparent;
+}
+
+/* Home section */
+.home__title {
+    font-size: 125%;
+    font-weight: 500;
+    text-transform: capitalize;
+}
