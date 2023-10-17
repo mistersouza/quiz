@@ -72,24 +72,26 @@ next.addEventListener('click', () => {
 
 // Check answer
 function checkAnswer(option) {
-    const options = option.parentElement.children;
     let isCorrect = option.classList.contains('quiz__option--correct');
-    let score = document.querySelector('.quiz__header--score');
+    const score = document.querySelector('.quiz__header--score');
+    const options = option.parentElement.children;
 
     if (isCorrect) {
-        score.innerHTML = `${Number.parseInt(score.innerHTML, 10) + 1}`;
-        option.classList.add('quiz__option--correct--active');
-    } else {
-        option.classList.add('quiz__option--wrong--active');
-        for (let each of options) {
-            if (each.classList.contains('quiz__option--correct')) {
-                each.classList.add('quiz__option--correct--active');
-            }            
-        }
+        score.textContent = parseInt(score.textContent, 10) + 1;
     }
+
+    option.classList.add(isCorrect
+        ? 'quiz__option--correct--active'
+        : 'quiz__option--wrong--active'
+    );
+
     for (let each of options) {
         each.classList.add('disabled');
+        if (each.classList.contains('quiz__option--correct')) {
+            each.classList.add('quiz__option--correct--active');
+        }
     }
+
     next.classList.remove('disabled');
 }
 
