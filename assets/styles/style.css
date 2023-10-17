@@ -97,22 +97,15 @@ button:hover {
 }
 
 /* Quiz section */
+.quiz__header {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .quiz__info {
-    display: flex;
-    justify-content: space-between;
-}
-
-.quiz__info--item {
-    display: flex;
-    gap: .25rem;
-    padding: 0.5rem 0;
-}
-
-.quiz__info--item:last-child {
     background: #f6f6f7;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-
 }
 
 .quiz__title {
