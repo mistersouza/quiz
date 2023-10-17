@@ -2,6 +2,7 @@ const intQuiz = document.querySelector('.home__button');
 const quitQuiz = document.querySelector('.guide__button--quit');
 const playQuiz = document.querySelector('.guide__button--play');
 
+let options;
 // Scroll into guide section
 intQuiz.addEventListener('click', () => {
     document.querySelector('#guide').scrollIntoView({ behavior: 'smooth' });
@@ -13,9 +14,10 @@ quitQuiz.addEventListener('click', () => {
 });
 
 // Set initial question
+const optionsBox = document.querySelector('.quiz__options');
+
 function loadQuestions(index) {
     const question = document.querySelector('.quiz__title');
-    const optionsBox = document.querySelector('.quiz__options');
 
     question.innerHTML = questions[index].question;
 
@@ -44,3 +46,13 @@ playQuiz.addEventListener('click', () => {
     loadQuestions(0);
     document.querySelector('#quiz').scrollIntoView({ behavior: 'smooth' });
 });
+
+// Check answer
+
+document.querySelectorAll('.quiz__option').forEach(option => {
+    option.addEventListener('click', (event) => {
+        event.stopPropagation();
+        console.log('clicked');
+    });
+});
+
