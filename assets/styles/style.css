@@ -57,6 +57,12 @@ article {
 }
 
 /* Buttons styles */
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
 button {
     outline: 0;
     cursor: pointer;
