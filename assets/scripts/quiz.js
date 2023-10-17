@@ -2,6 +2,9 @@ const intQuiz = document.querySelector('.home__button');
 const quitQuiz = document.querySelector('.guide__button--quit');
 const playQuiz = document.querySelector('.guide__button--play');
 
+const back = document.querySelector('.quiz__button--back');
+const next = document.querySelector('.quiz__button--next');
+
 let options;
 // Scroll into guide section
 intQuiz.addEventListener('click', () => {
@@ -14,10 +17,9 @@ quitQuiz.addEventListener('click', () => {
 });
 
 // Set initial question
-const optionsBox = document.querySelector('.quiz__options');
-
 function loadQuestions(index) {
     const question = document.querySelector('.quiz__title');
+    const optionsBox = document.querySelector('.quiz__options');
 
     question.innerHTML = questions[index].question;
 
@@ -47,8 +49,15 @@ playQuiz.addEventListener('click', () => {
     document.querySelector('#quiz').scrollIntoView({ behavior: 'smooth' });
 });
 
-// Check answer
+next.addEventListener('click', () => {
+    let question = Number.parseInt(document.querySelector('.quiz__info--question').innerHTML);
+    if (question < 5) document.querySelector('.quiz__info--question').innerHTML = ++question;
+    if (question == 5) next.classList.add('disabled');
+    let index = question - 1;
+    loadQuestions(index);
+});
 
+// Check answer
 document.querySelectorAll('.quiz__option').forEach(option => {
     option.addEventListener('click', (event) => {
         event.stopPropagation();
