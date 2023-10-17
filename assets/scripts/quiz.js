@@ -45,16 +45,29 @@ function loadQuestions(index) {
 }
 
 playQuiz.addEventListener('click', () => {
+    // load first round
     loadQuestions(0);
+    // Disable 'back' button on the right round. 
+    back.classList.add('disabled');
     document.querySelector('#quiz').scrollIntoView({ behavior: 'smooth' });
 });
+
+
 
 next.addEventListener('click', () => {
     let question = Number.parseInt(document.querySelector('.quiz__info--question').innerHTML);
     if (question < 5) document.querySelector('.quiz__info--question').innerHTML = ++question;
     if (question == 5) next.classList.add('disabled');
-    let index = question - 1;
-    loadQuestions(index);
+    loadQuestions(question);
+    back.classList.remove('disabled');
+});
+
+back.addEventListener('click', () => {
+    let question = Number.parseInt(document.querySelector('.quiz__info--question').innerHTML);
+    if (question > 1) document.querySelector('.quiz__info--question').innerHTML = --question;
+    if (question == 1) back.classList.add('disabled');
+    loadQuestions(question);
+    next.classList.remove('disabled');
 });
 
 // Check answer
