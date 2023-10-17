@@ -95,3 +95,65 @@ button:hover {
     font-weight: 500;
     font-size: 115%;
 }
+
+/* Quiz section */
+.quiz__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz__info--item {
+    display: flex;
+    gap: .25rem;
+    padding: 0.5rem 0;
+}
+
+.quiz__info--item:last-child {
+    background: #f6f6f7;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+}
+
+.quiz__title {
+    font-weight: 400;
+    font-size: 115%;
+}
+
+.quiz__options {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.quiz__option {
+    display: flex;
+    align-items: center;
+    border: 1px solid #1e3948;
+    color: #1e3948;
+    border-radius: 4px;
+}
+
+.quiz__option:hover {
+    background: #f6f6f7;
+}
+
+.quiz__option span {
+    border-right: 1px solid #1e3948;
+    padding: 1rem 2rem;
+    background: #f6f6f7;
+}
+
+.quiz__option p {
+    padding: 0 2rem;
+}
+
+.quiz__option--correct--active {
+    background: #d4edda;
+    color: #155724;
+}
+
+.quiz__option--wrong--active {
+    background: #f8d7da;
+    color: #721c24;
+}
