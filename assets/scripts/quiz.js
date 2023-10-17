@@ -72,6 +72,7 @@ next.addEventListener('click', () => {
 
 // Check answer
 function checkAnswer(option) {
+    const options = option.parentElement.children;
     let isCorrect = option.classList.contains('quiz__option--correct');
     let score = document.querySelector('.quiz__header--score');
 
@@ -79,11 +80,15 @@ function checkAnswer(option) {
         score.innerHTML = `${Number.parseInt(score.innerHTML, 10) + 1}`;
         option.classList.add('quiz__option--correct--active');
     } else {
-        // I can't get both correct and incorrect active classes to show at once. 
         option.classList.add('quiz__option--wrong--active');
+        for (let each of options) {
+            if (each.classList.contains('quiz__option--correct')) {
+                each.classList.add('quiz__option--correct--active');
+            }            
+        }
     }
-    for (let child of option.parentElement.children) {
-        child.classList.add('disabled');
+    for (let each of options) {
+        each.classList.add('disabled');
     }
     next.classList.remove('disabled');
 }
