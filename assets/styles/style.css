@@ -136,7 +136,7 @@ button:hover {
 .quiz__option span {
     border-right: 1px solid #1e3948;
     padding: 1rem 2rem;
-    background: #f6f6f7;
+    background: rgb(246, 246, 247);
 }
 
 .quiz__option p {
@@ -174,8 +174,16 @@ button:hover {
 }
 
 /* Results */
+
 .results__box {
-    min-width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.results__header {
+    align-self: flex-start;
 }
 
 .results__title {
@@ -183,46 +191,37 @@ button:hover {
     font-size: 115%;
 }
 
-.results__buttons {
-    display: flex;
-    justify-content: space-between;
-}
-
-.results__progress {
+.results__progress__bar {
     position: relative;
-    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    background: conic-gradient(#1e3948 3.6deg, rgba(246, 246, 247) 0deg);
+    border-radius: 50%;
+
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+
 }
 
-.results__progress::before {
+.results__progress__bar::before {
     content: '';
     position: absolute;
     width: 240px;
     height: 240px;
+    background: #fff;
     border-radius: 50%;
-    background-color: #fff;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
-.results__circle {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background: conic-gradient(#1e3948 3.6deg, rgb(30, 57, 72, .1) 0deg);
+.results__progress__bar__score {
+    position: relative;
+}
+
+.results__buttons {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 }
-
-.result__score {
-    z-index: 9;
-}
-
-
 
 /* Utilities */
 .disabled {
@@ -233,20 +232,24 @@ button:hover {
 
 /* Media queries */
 @media screen and (min-width: 768px) {
-    .quiz__container {
-        min-width: 55%;
-        max-width: 75%;
 
-    }
-
+    /* Home */
     .home__title {
         font-size: 200%;
     }
 
+    /* Guide */
     .guide__title {
         font-size: 150%;
     }
 
+    /* Quiz */
+    .quiz__container {
+        min-width: 55%;
+        max-width: 75%;
+    }
+
+    /* General */
     p {
         font-size: 115%;
     }
