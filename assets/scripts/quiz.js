@@ -99,17 +99,18 @@ function checkAnswer(option) {
 }
 
 function showProgress() {
-    const progressBar = document.querySelector('.results__progress');
-    const progressValue = document.querySelector('.result__score');
-    let progressStartValue = 0;
-    let progressEndValue = (Number.parseInt(score.textContent, 10) / 5) * 100;
+    const progressBar = document.querySelector('.results__progress__bar');
+    const progressValue = document.querySelector('.results__progress__bar__score');
+    let progressPercentage = -1;
+    let progressCount = (Number.parseInt(score.textContent, 10) / 5) * 100;
     let pace = 20;
 
     let progress = setInterval(() => {
-        progressStartValue++;
-        console.log(progressStartValue);
-        progressValue.textContent = `${progressStartValue}%`;
-        if (progressStartValue === progressEndValue) {
+        progressPercentage++;
+
+        progressValue.textContent = `${progressPercentage}%`;
+        progressBar.style.background = `conic-gradient(#1e3948 ${progressPercentage * 3.6}deg, rgb(30, 57, 72, .1) 0deg`;
+        if (progressPercentage === progressCount) {
             clearInterval(progress);
         }
     }, pace);
@@ -117,7 +118,7 @@ function showProgress() {
 
 playAgain.addEventListener('click', () => {
     loadQuestions(0);
-    score.textContent = 0;
+    score.textContent = '0';
     next.innerHTML = 'next()';
     document.querySelector('#quiz').scrollIntoView({ behavior: 'smooth' });
 });
