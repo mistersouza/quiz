@@ -51,8 +51,8 @@
                 correct answer. At the end of the quiz, your total score will be displayed. Maximum score is 10 points. Good
                 luck!</p>
             <di class="guide__buttons">
-                <button class="guide__button guide__button--quit">quit()</button>
-                <button class="guide__button guide__button--play">play()</button>
+                <button class="guide__button button--quit">quit()</button>
+                <button class="guide__button button--play">play()</button>
             </div>
         </article>
     </section>
@@ -72,17 +72,20 @@
         </article>
     </section>
     <section class="results" id="results" >
-        <h3 class="result__title"></h3>
-        <div class="result__box">
-            <div class="result__progress">
-                <span class="result__score">0%</span>
+        <article class=" results__box">
+            <div class="results__header">
+                <h3 class="results__title">// You scored 0 out of 5</h3>
             </div>
-            <p class="result__label">You scored 0 out of 5</p>
-        </div>
-        <di class="results__buttons">
-            <button class="results__button results__button--quit">nah_go_home()</button>
-            <button class="results__button results__button--play">again()</button>
-        </div>
+            <div class="results__progress">
+                <div class="results__circle">
+                    <span class="result__score">0%</span>
+                </div>
+            </div>
+            <di class="results__buttons">
+                <button class="results__button button--quit">home()</button>
+                <button class="results__button button--play">again()</button>
+            </div>
+        </article>
     </section>
     </main>
     <!-- Scripts -->

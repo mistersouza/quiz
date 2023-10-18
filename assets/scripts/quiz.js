@@ -1,9 +1,10 @@
 const intQuiz = document.querySelector('.home__button');
-const quitQuiz = document.querySelector('.guide__button--quit');
-const playQuiz = document.querySelector('.guide__button--play');
+const quitQuiz = document.querySelector('.button--quit');
+const playQuiz = document.querySelector('.button--play');
 
 const next = document.querySelector('.quiz__button--next');
-
+// Get question number
+let question = Number.parseInt(document.querySelector('.quiz__footer--count').innerHTML);
 let options;
 // Scroll into guide section
 intQuiz.addEventListener('click', () => {
@@ -57,40 +58,38 @@ playQuiz.addEventListener('click', () => {
 
 
 next.addEventListener('click', () => {
-    let question = Number.parseInt(document.querySelector('.quiz__footer--count').innerHTML);
     if (question < 5) {
         loadQuestions(question);
         document.querySelector('.quiz__footer--count').innerHTML = ++question;
-    }
-    if (question == 5) {
-        next.innerHTML = 'grade()';
+    } else {
+        document.querySelector('#results').scrollIntoView({ behavior: 'smooth' });
     }
     next.classList.add('disabled');
 });
-
-
 // Check answer
 function checkAnswer(option) {
     let isCorrect = option.classList.contains('quiz__option--correct');
     const score = document.querySelector('.quiz__header--score');
-    const options = option.parentElement.children;
 
     if (isCorrect) {
         score.textContent = parseInt(score.textContent, 10) + 1;
     }
 
-    option.classList.add(isCorrect
-        ? 'quiz__option--correct--active'
-        : 'quiz__option--wrong--active'
-    );
+    if (question < 5) {
+        option.classList.add(isCorrect
+            ? 'quiz__option--correct--active'
+            : 'quiz__option--wrong--active'
+        );
 
-    for (let each of options) {
-        each.classList.add('disabled');
-        if (each.classList.contains('quiz__option--correct')) {
-            each.classList.add('quiz__option--correct--active');
+        for (let each of option.parentElement.children) {
+            each.classList.add('disabled');
+            if (each.classList.contains('quiz__option--correct')) {
+                each.classList.add('quiz__option--correct--active');
+            }
         }
+    } else {
+        next.innerHTML = 'grade()';
     }
-
+    console.log({ 'label': question });
     next.classList.remove('disabled');
 }
-
