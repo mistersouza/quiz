@@ -1,6 +1,7 @@
 const intQuiz = document.querySelector('.home__button');
 const quitQuiz = document.querySelector('.button--quit');
 const playQuiz = document.querySelector('.button--play');
+const playAgain = document.querySelector('.button--again');
 
 const next = document.querySelector('.quiz__button--next');
 // Get question number
@@ -21,10 +22,10 @@ quitQuiz.addEventListener('click', () => {
 // Set initial question
 function loadQuestions(index) {
     // Grabbin' the question and options elements
-    const question = document.querySelector('.quiz__title');
+    const questionTitle = document.querySelector('.quiz__title');
     const optionsBox = document.querySelector('.quiz__options');
     // pulating the question with the good stuff
-    question.innerHTML = questions[index].question;
+    questionTitle.innerHTML = questions[index].question;
     // Time to loop through the options 
     let letter = 'a';
     let html = '';
@@ -51,9 +52,8 @@ function loadQuestions(index) {
     //  Disabling the 'Next' button for now
     next.classList.add('disabled');
 }
-
 playQuiz.addEventListener('click', () => {
-    // load first round
+    // Load the first round
     loadQuestions(0);
     document.querySelector('#quiz').scrollIntoView({ behavior: 'smooth' });
 });
@@ -65,6 +65,9 @@ next.addEventListener('click', () => {
         document.querySelector('.quiz__footer--count').innerHTML = ++question;
     } else {
         document.querySelector('#results').scrollIntoView({ behavior: 'smooth' });
+        document.querySelector('.quiz__footer--count').innerHTML = 1;
+        question = 1;
+        showProgress();
     }
     next.classList.add('disabled');
 });
@@ -94,3 +97,27 @@ function checkAnswer(option) {
     }
     next.classList.remove('disabled');
 }
+
+function showProgress() {
+    const progressBar = document.querySelector('.results__progress');
+    const progressValue = document.querySelector('.result__score');
+    let progressStartValue = 0;
+    let progressEndValue = (Number.parseInt(score.textContent, 10) / 5) * 100;
+    let pace = 20;
+
+    let progress = setInterval(() => {
+        progressStartValue++;
+        console.log(progressStartValue);
+        progressValue.textContent = `${progressStartValue}%`;
+        if (progressStartValue === progressEndValue) {
+            clearInterval(progress);
+        }
+    }, pace);
+}
+
+playAgain.addEventListener('click', () => {
+    loadQuestions(0);
+    score.textContent = 0;
+    next.innerHTML = 'next()';
+    document.querySelector('#quiz').scrollIntoView({ behavior: 'smooth' });
+});
