@@ -38,7 +38,7 @@ main {
     width: 100%;
     margin: 0 auto;
     height: 100vh;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 section {
@@ -175,8 +175,7 @@ button:hover {
 
 /* Results */
 .results__box {
-    min-width: 75%;
-    
+    min-width: 70%;
 }
 
 .results__title {
@@ -191,7 +190,6 @@ button:hover {
 
 .results__progress {
     position: relative;
-    width: 300px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -218,6 +216,10 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.result__score {
+    z-index: 9;
 }
 
 

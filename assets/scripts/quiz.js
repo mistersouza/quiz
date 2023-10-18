@@ -5,6 +5,8 @@ const playQuiz = document.querySelector('.button--play');
 const next = document.querySelector('.quiz__button--next');
 // Get question number
 let question = Number.parseInt(document.querySelector('.quiz__footer--count').innerHTML);
+// Get score
+const score = document.querySelector('.quiz__header--score');
 let options;
 // Scroll into guide section
 intQuiz.addEventListener('click', () => {
@@ -69,7 +71,6 @@ next.addEventListener('click', () => {
 // Check answer
 function checkAnswer(option) {
     let isCorrect = option.classList.contains('quiz__option--correct');
-    const score = document.querySelector('.quiz__header--score');
 
     if (isCorrect) {
         score.textContent = parseInt(score.textContent, 10) + 1;
@@ -89,7 +90,7 @@ function checkAnswer(option) {
         }
     } else {
         next.innerHTML = 'grade()';
+        document.querySelector('.results__title').textContent = `// You scored ${score.textContent} out of 5`;
     }
-    console.log({ 'label': question });
     next.classList.remove('disabled');
 }
