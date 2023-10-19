@@ -86,10 +86,16 @@
 + Craft the website with a focus on user experience principles.
 + Uphold straightforward navigation, intuitive design, and design coherence.
 + Guarantee that the website's content remains inclusive and non-offensive for all users.
-+ Integrate a user-friendly subscription mechanism for users to join a mailing list.### wireframe
++ Integrate a user-friendly subscription mechanism for users to join a mailing list.
 
-### wireframe
+### Wireframe
 
 ● We've gone with Balsamiq software for those slick and responsive designs. These wireframes help us nail down the website's structure and content layout.
 
-![Wireframe screenshot](assets/images/readme/)
+![Wireframe screenshot](assets/images/readme/quiz-intro.mov)
+
+### Color Scheme
+
+● In our initial design phase, we're sticking with grayscale for that classic, user-centric feel. Still, we've added a hint of red and green to highlight essential features. Other accent colors will make their grand entrance after we've done some deep diving into UX research to really make the design pop.
+
+![Grayscale color scheme](assets/images/readme/quiz-color-scheme.webp)
