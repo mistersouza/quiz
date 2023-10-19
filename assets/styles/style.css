@@ -70,7 +70,6 @@ button {
     border-radius: 4px;
     font-weight: 500;
     font-size: 100%;
-
     align-self: flex-end;
 }
 
@@ -107,7 +106,6 @@ button:hover {
     background: #f6f6f7;
     padding: 0.5rem 1rem;
     border-radius: 4px;
-
 }
 
 .quiz__title {
@@ -197,11 +195,9 @@ button:hover {
     height: 250px;
     background: conic-gradient(#1e3948 3.6deg, rgba(246, 246, 247) 0deg);
     border-radius: 50%;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .results__progress__bar::before {
@@ -233,6 +229,15 @@ button:hover {
 /* Media queries */
 @media screen and (min-width: 768px) {
 
+    /* General */
+    p {
+        font-size: 115%;
+    }
+
+    button {
+        font-size: 115%;
+    }
+
     /* Home */
     .home__title {
         font-size: 200%;
@@ -247,14 +252,5 @@ button:hover {
     .quiz__container {
         min-width: 55%;
         max-width: 75%;
-    }
-
-    /* General */
-    p {
-        font-size: 115%;
-    }
-
-    button {
-        font-size: 115%;
     }
 }
