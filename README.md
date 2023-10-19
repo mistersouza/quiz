@@ -105,11 +105,6 @@
 ● We're rocking a single font for that clean and unified design. But watch out – we're eyeing some custom fonts for a bold move. We're diving into UX research, fine-tuning our goals, and teaming up. Our mission? Amp up the site's coolness and user vibes with fonts that click with our style and user tastes.
 
 + Lato
-  + Thin
-  + Light
-  + Italic
-  + Regular
-  + SemiBold
-  + Bold
+  ○ Thin ○ Light ○ Italic ○ Regular ○ SemiBold ○ Bold
 
 ![Font-family](assets/images/readme/quiz-font-family.webp)
