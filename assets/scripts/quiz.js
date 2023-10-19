@@ -64,10 +64,7 @@ next.addEventListener('click', () => {
         loadQuestions(question);
         document.querySelector('.quiz__footer--count').innerHTML = ++question;
     } else {
-        document.querySelector('#results').scrollIntoView({ behavior: 'smooth' });
-        document.querySelector('.quiz__footer--count').innerHTML = 1;
-        question = 1;
-        showProgress();
+        showResults();
     }
     next.classList.add('disabled');
 });
@@ -75,35 +72,33 @@ next.addEventListener('click', () => {
 function checkAnswer(option) {
     let isCorrect = option.classList.contains('quiz__option--correct');
 
-    if (isCorrect) {
-        score.textContent = parseInt(score.textContent, 10) + 1;
-    }
+    if (isCorrect) score.textContent = parseInt(score.textContent, 10) + 1;
 
-    if (question < 5) {
-        option.classList.add(isCorrect
-            ? 'quiz__option--correct--active'
-            : 'quiz__option--wrong--active'
-        );
+    option.classList.add(isCorrect
+        ? 'quiz__option--correct--active'
+        : 'quiz__option--wrong--active'
+    );
 
-        for (let each of option.parentElement.children) {
-            each.classList.add('disabled');
-            if (each.classList.contains('quiz__option--correct')) {
-                each.classList.add('quiz__option--correct--active');
-            }
+    for (let each of option.parentElement.children) {
+        each.classList.add('disabled');
+        if (each.classList.contains('quiz__option--correct')) {
+            each.classList.add('quiz__option--correct--active');
         }
-    } else {
-        next.innerHTML = 'grade()';
-        document.querySelector('.results__title').textContent = `// You scored ${score.textContent} out of 5`;
     }
+    if (question === 5) next.innerHTML = 'end()';
+
     next.classList.remove('disabled');
 }
 
-function showProgress() {
+function showResults() {
     const progressBar = document.querySelector('.results__progress__bar');
     const progressValue = document.querySelector('.results__progress__bar__score');
     let progressPercentage = -1;
     let progressCount = (Number.parseInt(score.textContent, 10) / 5) * 100;
     let pace = 20;
+
+    document.querySelector('.results__title').textContent = `// You scored ${score.textContent} out of 5`;
+    document.querySelector('#results').scrollIntoView({ behavior: 'smooth' });
 
     let progress = setInterval(() => {
         progressPercentage++;
@@ -118,7 +113,9 @@ function showProgress() {
 
 playAgain.addEventListener('click', () => {
     loadQuestions(0);
+    document.querySelector('#quiz').scrollIntoView({ behavior: 'smooth' });
+    document.querySelector('.quiz__footer--count').innerHTML = 1;
+    question = 1;
     score.textContent = '0';
     next.innerHTML = 'next()';
-    document.querySelector('#quiz').scrollIntoView({ behavior: 'smooth' });
 });
