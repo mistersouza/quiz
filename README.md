@@ -62,9 +62,9 @@
 + __Online Community Moderator,:__ As user, I want to keep my community engaged with entertaining quizzes related to our niche. I'm interested in partnerships that allow me to monetize our community's interaction and shared content.
 + __Content Creator:__ As user, I want to use quizzes to drive audience engagement on my blog or website. I'm open to advertising and affiliate opportunities to generate income while enhancing user interaction with my content.
 
-### Site Objectives
+### Objectives
 
-● These succinct objectives outline the website's core purposes and strategic focus. 
+● These succinct objectives outline the web-app's core purposes and strategic focus. 
 
 1. <details><summary>User-Centric Design</summary>Prioritize user experience by creating a user-friendly, responsive, and intuitive interface.</details>
    
@@ -77,3 +77,13 @@
 5. <details><summary>Content Diversity</summary>Regularly update and diversify quiz content to maintain user engagement and interest.</details>
    
 6. <details><summary>Marketing and Brand Promotion</summary>Enable brands to utilize quizzes for marketing, driving brand recognition and customer engagement.</details>
+
+7. ### Approach
+
+● The approach ensures synergy with both business strategies and user expectations, emphasizing a smooth and user-focused journey
+
++ Organize information logically through thorough research and planning.
++ Craft the website with a focus on user experience principles.
++ Uphold straightforward navigation, intuitive design, and design coherence.
++ Guarantee that the website's content remains inclusive and non-offensive for all users.
++ Integrate a user-friendly subscription mechanism for users to join a mailing list.
