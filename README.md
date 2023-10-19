@@ -117,8 +117,6 @@ Features intro
 
 ## Deployment 🚀
 
-● We pushed the site live. 
+● We pushed the site live [here](https://mistersouza.github.io/quiz/)
 
 + See how we rocked it with [GitHub Pages](https://youtu.be/DqjPr7auwdY?si=CMQMCvASxNmIDD3e)
-
-+ Check it out [here](ttps://mistersouza.github.io/quiz/)
