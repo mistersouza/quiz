@@ -36,7 +36,7 @@
 
 ### Audience 🎯
 
-_The initial target audience for the quiz web-app would include:_
+● The initial target audience for the quiz web-app would include:_
 
 1. <details><summary>Students and Educators</summary> Educational quizzes can cater to students of various age groups, helping with learning and test preparation.</details>
 
@@ -51,3 +51,13 @@ _The initial target audience for the quiz web-app would include:_
 6. <details><summary>Content Creators</summary> Bloggers and content creators who wish to engage their audience through interactive quizzes.</details>
 
 7. <details><summary>Professional Development</summary> Individuals looking for self-assessment or skill development quizzes for career advancement.</details>
+
+### User Stories
+
+● These user stories support the website's business strategy, ensuring an engaging and valuable experience for all target audiences.
+
++ __Student:__ As user,  want access to a wide range of educational quizzes to help me prepare for exams and improve my knowledge. I'm willing to pay for premium quiz packs with in-depth content to enhance my learning experience.
++ __Brand Marketer:__ As user, I aim to boost brand visibility and engage my audience through integrated interactive quizzes, and I'm open to investing in sponsored quiz content.
++ __Event Organizer:__ As user, I need a user-friendly quiz platform for events and team building, and I'm ready to subscribe to a premium plan with customization and analytics.
++ __Online Community Moderator,:__ As user, I want to keep my community engaged with entertaining quizzes related to our niche. I'm interested in partnerships that allow me to monetize our community's interaction and shared content.
++ __Content Creator:__ As user, I want to use quizzes to drive audience engagement on my blog or website. I'm open to advertising and affiliate opportunities to generate income while enhancing user interaction with my content.
