@@ -104,8 +104,8 @@
 
 ● We're rocking a single font for that clean and unified design. But watch out – we're eyeing some custom fonts for a bold move. We're diving into UX research, fine-tuning our goals, and teaming up. Our mission? Amp up the site's coolness and user vibes with fonts that click with our style and user tastes.
 
-+ Lato
-  ● Thin ○ Light ○ Italic ○ Regular ○ SemiBold ○ Bold
+    ● Lato
+        ○ Thin ○ Light ○ Italic ○ Regular ○ SemiBold ○ Bold
 
 ![Font-family](assets/images/readme/quiz-font-family.webp)
 
@@ -117,6 +117,6 @@ Features intro
 
 ## Deployment 🚀
 
-● We pushed the site live [here](https://mistersouza.github.io/quiz/)
+● We pushed the site live [here](https://mistersouza.github.io/quiz/){:target="_blank" rel="noopener"}
 
-+ See how we rocked it with [GitHub Pages](https://youtu.be/DqjPr7auwdY?si=CMQMCvASxNmIDD3e)
++ See how we rocked it with [GitHub Pages](https://youtu.be/DqjPr7auwdY?si=CMQMCvASxNmIDD3e){:target="_blank" rel="noopener"}
