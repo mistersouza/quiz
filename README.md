@@ -33,3 +33,21 @@
 + __Quality and Engaging Content:__ Build a relevant and engaging content repository that caters to a our audience demographic.
 
 + __Monetization and Marketing:__ Diversify income through premium quizzes, ads, and freemium models. Utilize social media, SEO, and collaborations to grow the user base and secure sponsorships.
+
+### Audience 🎯
+
+_The initial target audience for the quiz web-app would include:_
+
+1. <details><summary>Students and Educators</summary> Educational quizzes can cater to students of various age groups, helping with learning and test preparation.</details>
+
+2. <details><summary>Trivia Enthusiasts</summary> Users with an interest in the history of motorsport and iconic racing figures like Ayrton Senna.</details>
+
+3. <details><summary>Brands and Marketers</summary> Businesses interested in using quizzes for marketing and engagement with their audience.</details>
+
+4. <details><summary>Event Organizers</summary> Those organizing events or team-building activities that require interactive quizzes.</details>
+
+5. <details><summary>Online Communities</summary> Forum or social media communities that enjoy sharing and participating in quizzes.</details>
+
+6. <details><summary>Content Creators</summary> Bloggers and content creators who wish to engage their audience through interactive quizzes.</details>
+
+7. <details><summary>Professional Development</summary> Individuals looking for self-assessment or skill development quizzes for career advancement.</details>
