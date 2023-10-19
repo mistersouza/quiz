@@ -117,6 +117,14 @@ Features intro
 
 ## Deployment 🚀
 
-● We pushed the site live [here](https://mistersouza.github.io/quiz/){:target="_blank" rel="noopener"}
+● We pushed the site live [here](https://mistersouza.github.io/quiz/)
 
-+ See how we rocked it with [GitHub Pages](https://youtu.be/DqjPr7auwdY?si=CMQMCvASxNmIDD3e){:target="_blank" rel="noopener"}
++ See how we rocked it with [GitHub Pages](https://youtu.be/DqjPr7auwdY?si=CMQMCvASxNmIDD3e)
+
+## Testing 🔎
+
+● Testing at every stage of development, keeping it on point.
+
+### Assessment
+
++ We've been rocking Google DevTools to check how our site dances in real-time, making sure it grooves smoothly on various devices browsers and connection speeds. Tho, no automatic test is in place right now, we've got every click and swipe covered to ensure it's all smooth sailing.
