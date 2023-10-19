@@ -86,4 +86,10 @@
 + Craft the website with a focus on user experience principles.
 + Uphold straightforward navigation, intuitive design, and design coherence.
 + Guarantee that the website's content remains inclusive and non-offensive for all users.
-+ Integrate a user-friendly subscription mechanism for users to join a mailing list.
++ Integrate a user-friendly subscription mechanism for users to join a mailing list.### wireframe
+
+### wireframe
+
+● We've gone with Balsamiq software for those slick and responsive designs. These wireframes help us nail down the website's structure and content layout.
+
+![Wireframe screenshot](assets/images/readme/)
