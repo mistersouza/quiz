@@ -114,3 +114,11 @@
 ● Take a peek at what our app can do now and the exciting stuff we've got cooking
 
 Features intro
+
+## Deployment 🚀
+
+● We pushed the site live. 
+
+[![GitHub Pages](assets/images/readme/githubpages.webp)](https://youtu.be/DqjPr7auwdY?si=CMQMCvASxNmIDD3e "GitHub Pages")(<https://www.youtube.com/watch?v=DqjPr7auwdY>)
+
++ check it out [here](ttps://mistersouza.github.io/quiz/)
