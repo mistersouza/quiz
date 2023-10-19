@@ -99,3 +99,17 @@
 ● In our initial design phase, we're sticking with grayscale for that classic, user-centric feel. Still, we've added a hint of red and green to highlight essential features. Other accent colors will make their grand entrance after we've done some deep diving into UX research to really make the design pop.
 
 ![Grayscale color scheme](assets/images/readme/quiz-color-scheme.webp)
+
+### Typography
+
+● We're rocking a single font for that clean and unified design. But watch out – we're eyeing some custom fonts for a bold move. We're diving into UX research, fine-tuning our goals, and teaming up. Our mission? Amp up the site's coolness and user vibes with fonts that click with our style and user tastes.
+
++ Lato
+  + Thin
+  + Light
+  + Italic
+  + Regular
+  + SemiBold
+  + Bold
+
+![Font-family](assets/images/readme/quiz-font-family.webp)
