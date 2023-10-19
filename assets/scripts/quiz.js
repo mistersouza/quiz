@@ -2,6 +2,7 @@ const intQuiz = document.querySelector('.home__button');
 const quitQuiz = document.querySelector('.button--quit');
 const playQuiz = document.querySelector('.button--play');
 const playAgain = document.querySelector('.button--again');
+const home = document.querySelector('.button--home');
 
 const next = document.querySelector('.quiz__button--next');
 // Get question number
@@ -56,6 +57,7 @@ playQuiz.addEventListener('click', () => {
     // Load the first round
     loadQuestions(0);
     document.querySelector('#quiz').scrollIntoView({ behavior: 'smooth' });
+
 });
 
 
@@ -118,4 +120,8 @@ playAgain.addEventListener('click', () => {
     question = 1;
     score.textContent = '0';
     next.innerHTML = 'next()';
+});
+
+home.addEventListener('click', () => {
+    document.location.href = "/";
 });
