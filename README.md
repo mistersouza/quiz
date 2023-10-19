@@ -119,6 +119,6 @@ Features intro
 
 ● We pushed the site live. 
 
-[![GitHub Pages](assets/images/readme/githubpages.webp)](https://youtu.be/DqjPr7auwdY?si=CMQMCvASxNmIDD3e "GitHub Pages")(<https://www.youtube.com/watch?v=DqjPr7auwdY>)
++ See how we rocked it with [GitHub Pages](https://youtu.be/DqjPr7auwdY?si=CMQMCvASxNmIDD3e)
 
-+ check it out [here](ttps://mistersouza.github.io/quiz/)
++ Check it out [here](ttps://mistersouza.github.io/quiz/)
