@@ -121,7 +121,7 @@
 
 ### Guide
 
-● It's again about minimalism, making friends with both small and large screens. It educates users on the game and lets them make the call. ![Read and blue pills](assets/images/readme/quiz-pills.webp | height=50)
+● It's again about minimalism, making friends with both small and large screens. It educates users on the game and lets them make the call. <img src="assets/images/readme/quiz-pills.webp" width="25">
 
 ![Guide screenshot](assets/images/readme/quiz-guide.webp)
 
@@ -129,9 +129,8 @@
 
 ● We've packed it with plenty of features. Users receive feedback for right and wrong answers, keep an eye on their scores and progress. Users can only click the right button at the right moment, and they're continuously informed about their actions and performance.
 
-![Read and blue pills](assets/images/readme/quiz-card.webp | width=250)
-![Read and blue pills](assets/images/readme/quiz-feedback-correct.webp | width=250)
-![Read and blue pills](assets/images/readme/quiz-feedback-incorrect.webp | width=250)
+![Quiz card](aassets/images/readme/quiz-card-feedback.webp)
+
 ## Deployment 🚀
 
 markdown_extensions:
