@@ -167,7 +167,7 @@
 
 + I've learned a lot by conquering those pesky logical bugs in this project. Some were straightforward, while others... not so much. I've grown to appreciate them, almost like I would a stern teacher.
 
-It took a little time to move up loadQuestion in order the get the right questions loaded.
+It took a bit of tinkering to rearrange loadQuestion and get those questions in the right order.
 
 ```javascript
 next.addEventListener('click', () => {
@@ -181,6 +181,26 @@ next.addEventListener('click', () => {
 });
 ```
 
-### Unfixed Bugs
+This one definitely added a few more gray hairs! I couldn't quite pinpoint why the event kept bubbling up to the parent.
 
-+ The signup link doesn't light up when the related section scrolls into view. No worries, though; we're on it, making sure to iron out this bug while we're pumping up overall interactivity.
+```javascript
+const options = document.querySelectorAll('.quiz__option');
+
+options.forEach(option => {
+    option.addEventListener('click', function(event) {
+        event.stopPropagation();
+        console.log('clicked');
+    });
+});
+```
+
+I ended up adding a click event to every element that houses the quiz options.
+
+```javascript
+document.querySelectorAll('.quiz__option').forEach(option => {
+        option.setAttribute('onclick', 'checkAnswer(this)');
+        if (option.getAttribute('data-option') === questions[index].correct) {
+            option.classList.add('quiz__option--correct');
+        }
+});
+```
