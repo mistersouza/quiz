@@ -139,12 +139,9 @@
 
 ## Deployment 🚀
 
-markdown_extensions:
-    - attr_list
+● We pushed the app live ![here](https://mistersouza.github.io/quiz/)
 
-● We pushed the app live ![here](https://mistersouza.github.io/quiz/){:target="_blank" rel="noopener"}
-
-+ See how we rocked it with ![GitHub Pages](https://youtu.be/DqjPr7auwdY?si=CMQMCvASxNmIDD3e){:target="_blank" rel="noopener"}
++ See how we rocked it with ![GitHub Pages](https://youtu.be/DqjPr7auwdY?si=CMQMCvASxNmIDD3e)
 
 ## Testing 🔎
 
@@ -159,3 +156,9 @@ markdown_extensions:
 + We've gone through every line of code with a fine-tooth comb, and guess what? The W3C validators gave us a thumbs-up across the board.
 
 ![W3C validator check](assets/images/readme/quiz-w3c-validators.webp)
+
+### Performance
+
++ I've got a thing for those numbers that light up in vibrant green.
+  
+![Lighthouse report](assets/images/readme/quiz-lighthouse-report.webp)
