@@ -123,5 +123,5 @@ playAgain.addEventListener('click', () => {
 });
 
 home.addEventListener('click', () => {
-    document.location.href = "/";
+    document.location.href = "#home";
 });

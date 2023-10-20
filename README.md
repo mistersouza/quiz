@@ -113,13 +113,19 @@
 
 ● Take a peek at what our app can do now and the exciting stuff we've got cooking
 
-Features intro
+### Home
+
+● Sleek and mobile-friendly, it's all about that minimalistic vibe. It smoothly eases users into the quiz and guides them to the next screen without a hitch.
+
+![Home screenshot](assets/images/readme/quiz-home.webp)
 
 ## Deployment 🚀
 
-● We pushed the site live [here](https://mistersouza.github.io/quiz/)
+markdown_extensions:
+    - attr_list
+● We pushed the app live [here](https://mistersouza.github.io/quiz/){:target="_blank" rel="noopener"}
 
-+ See how we rocked it with [GitHub Pages](https://youtu.be/DqjPr7auwdY?si=CMQMCvASxNmIDD3e)
++ See how we rocked it with [GitHub Pages](https://youtu.be/DqjPr7auwdY?si=CMQMCvASxNmIDD3e){:target="_blank" rel="noopener"}
 
 ## Testing 🔎
 
