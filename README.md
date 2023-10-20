@@ -92,7 +92,8 @@
 
 ● We've gone with Balsamiq software for those slick and responsive designs. These wireframes help us nail down the website's structure and content layout.
 
-![Wireframe screenshot](assets/images/readme/quiz-intro.mov)
+![Wireframe screenshot](assets/images/readme/quiz-wireframes-1.webp)
+![Wireframe screenshot](assets/images/readme/quiz-wireframes-2.webp)
 
 ### Color Scheme
 
