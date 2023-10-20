@@ -139,9 +139,12 @@
 
 ## Deployment 🚀
 
-● We pushed the app live ![here](https://mistersouza.github.io/quiz/)
+markdown_extensions:
+    - attr_list
 
-+ See how we rocked it with ![GitHub Pages](https://youtu.be/DqjPr7auwdY?si=CMQMCvASxNmIDD3e)
+● We pushed the app live [here](https://mistersouza.github.io/quiz/)
+
++ See how we rocked it with [GitHub Pages](https://youtu.be/DqjPr7auwdY?si=CMQMCvASxNmIDD3e)
 
 ## Testing 🔎
 
