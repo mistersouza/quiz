@@ -116,19 +116,19 @@
 
 ### Home
 
-● Sleek and mobile-friendly, it's all about that minimalistic vibe. It smoothly eases users into the quiz and guides them to the next screen without a hitch.
+_Sleek and mobile-friendly, it's all about that minimalistic vibe. It smoothly eases users into the quiz and guides them to the next screen without a hitch.
 
 ![Home screenshot](assets/images/readme/quiz-home.webp)
 
 ### Guide
 
-● It's again about minimalism, making friends with both small and large screens. It educates users on the game and lets them make the call <img src="assets/images/readme/quiz-pills.webp" width="45">
+_It's again about minimalism, making friends with both small and large screens. It educates users on the game and lets them make the call <img src="assets/images/readme/quiz-pills.webp" width="45">
 
 ![Guide screenshot](assets/images/readme/quiz-guide.webp)
 
 ### Quiz
 
-● I've packed it with plenty of features. Users receive feedback for right and wrong answers, keep an eye on their scores and progress. Users can only click the right button at the right moment, and they're continuously informed about their actions and performance.
+_I've packed it with plenty of features. Users receive feedback for right and wrong answers, keep an eye on their scores and progress. Users can only click the right button at the right moment, and they're continuously informed about their actions and performance.
 
 ![Quiz card](assets/images/readme/quiz-card-feedback.webp)
 
@@ -137,6 +137,14 @@
 ● Users are in for a treat when they see their performance, and it looks great on any screen. With a clean and interactive progress bar, they can easily gauge their quiz journey. And guess what? They get the chance to go at it again or call it a day.
 
 ![Quiz card](assets/images/readme/quiz-results.webp)
+
+### Coming up 🚀🔥
+
+_I'm absolutely pumped and raring to go as we dive into some fantastic updates that will take your quiz app to the next level:
+    + User Authentication
+    + API Interactions
+
+We're working hard to make these enhancements only a click a away.
 
 ## Testing 🔎
 
