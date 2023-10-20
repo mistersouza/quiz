@@ -1,6 +1,6 @@
 # Quiz ❓
 
-▷ Developing this quiz web app is a growth catalyst for me as a developer. This project offers hands-on experience and a business potential that together accelerate my growth. It involves learning HTML, CSS, and JavaScript, while providing an interactive platform for knowledge assessment. Not only does it enhance problem-solving skills, but it also taps into the thriving demand for interactive learning tools. The app's adaptability, market relevance, and potential for monetization through advertising or subscriptions make it a valuable avenue for personal development and a promising business opportunity.
+▷ Building this quiz web app is like jet fuel for my developer journey. It's a hands-on gig that's firing up my growth engine. I'm diving into HTML, CSS, and JavaScript while crafting this interactive knowledge assessment playground. It's not just honing my problem-solving chops; it's also diving into the booming world of interactive learning. With its versatility, market appeal, and cash-making potential through ads or subscriptions, this project isn't just a personal growth path; it's a promising business venture! 💡💰
 
 ![Website at diffeent breakpoints](assets/images/readme/quiz-breakpoints.webp)
 
@@ -64,18 +64,18 @@
 
 ### Objectives
 
-● These succinct objectives outline the web-app's core purposes and strategic focus. 
+● These succinct objectives outline the web-app's core purposes and strategic focus.
 
 1. <details><summary>User-Centric Design</summary>Prioritize user experience by creating a user-friendly, responsive, and intuitive interface.</details>
-   
+
 2. <details><summary>Community Building</summary>Foster online communities by providing quiz content that encourages interaction and sharing.</details>
-   
+
 3. <details><summary>Educational Enrichment</summary>Provide a platform for users to access and create educational quizzes to enhance learning.</details>
 
 4. <details><summary>Entertainment and Engagement</summary>Create interactive and fun quizzes to engage and entertain a broad audience.</details>
 
 5. <details><summary>Content Diversity</summary>Regularly update and diversify quiz content to maintain user engagement and interest.</details>
-   
+
 6. <details><summary>Marketing and Brand Promotion</summary>Enable brands to utilize quizzes for marketing, driving brand recognition and customer engagement.</details>
 
 7. ### Approach
@@ -121,20 +121,27 @@
 
 ### Guide
 
-● It's again about minimalism, making friends with both small and large screens. It educates users on the game and lets them make the call. <img src="assets/images/readme/quiz-pills.webp" width="25">
+● It's again about minimalism, making friends with both small and large screens. It educates users on the game and lets them make the call <img src="assets/images/readme/quiz-pills.webp" width="35">
 
 ![Guide screenshot](assets/images/readme/quiz-guide.webp)
 
 ### Quiz
 
-● We've packed it with plenty of features. Users receive feedback for right and wrong answers, keep an eye on their scores and progress. Users can only click the right button at the right moment, and they're continuously informed about their actions and performance.
+● I've packed it with plenty of features. Users receive feedback for right and wrong answers, keep an eye on their scores and progress. Users can only click the right button at the right moment, and they're continuously informed about their actions and performance.
 
-![Quiz card](aassets/images/readme/quiz-card-feedback.webp)
+![Quiz card](assets/images/readme/quiz-card-feedback.webp)
+
+### Results
+
+● Users are in for a treat when they see their performance, and it looks great on any screen. With a clean and interactive progress bar, they can easily gauge their quiz journey. And guess what? They get the chance to go at it again or call it a day.
+
+![Quiz card](assets/images/readme/quiz-results.webp)
 
 ## Deployment 🚀
 
 markdown_extensions:
     - attr_list
+
 ● We pushed the app live [here](https://mistersouza.github.io/quiz/){:target="_blank" rel="noopener"}
 
 + See how we rocked it with [GitHub Pages](https://youtu.be/DqjPr7auwdY?si=CMQMCvASxNmIDD3e){:target="_blank" rel="noopener"}
