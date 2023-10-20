@@ -55,8 +55,15 @@ function loadQuestions(index) {
 }
 playQuiz.addEventListener('click', () => {
     // Load the first round
+    if (question > 1) {
+        question = 1;
+        score.textContent = '0';
+        next.innerHTML = 'next()';
+    }
+
     loadQuestions(0);
     document.querySelector('#quiz').scrollIntoView({ behavior: 'smooth' });
+
 
 });
 

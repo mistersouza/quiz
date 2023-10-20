@@ -232,7 +232,7 @@ _Toolkit
 
 ● Sure, I've been the sole architect handling the planning, design, and code, but I couldn't have made it happen without a few trusty allies. And to be honest, I wouldn't have it any other way. The teamwork and camaraderie in the world of programming are some of the things I value most on this journey
 
-### Inpired by
+### Inspired by
 
 + This project has given me the boost I needed to get up and running.
   + Code Institute's [Love maths](https://github.com/mistersouza/love-maths.git)
