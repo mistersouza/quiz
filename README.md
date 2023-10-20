@@ -205,13 +205,9 @@ document.querySelectorAll('.quiz__option').forEach(option => {
 
 ## Deployment 🚀
 
-markdown_extensions:
+● We pushed the app live [here](https://mistersouza.github.io/quiz/)
 
-+ attr_list
-
-● We pushed the app live [here](https://mistersouza.github.io/quiz/){:target="_blank"}
-
-+ See how we rocked it with [GitHub Pages](https://youtu.be/DqjPr7auwdY?si=CMQMCvASxNmIDD3e){:target="_blank"}
++ See how we rocked it with [GitHub Pages](https://youtu.be/DqjPr7auwdY?si=CMQMCvASxNmIDD3e)
 
 ## Tech 🛠️
 
@@ -235,3 +231,12 @@ _Toolkit
 ## Credits
 
 ● Sure, I've been the sole architect handling the planning, design, and code, but I couldn't have made it happen without a few trusty allies. And to be honest, I wouldn't have it any other way. The teamwork and camaraderie in the world of programming are some of the things I value most on this journey
+
+### Thanks
+
++ David Calikes, Code Institute Cohort Facilitator.
+  + Positive and Uplifting. David's Always available and boosts my confidence time we chat.
++ Oluwafemi Medale, Code Institute Mentor.
+  + Bugs terminator. He always make times, when there's no time at all.
++ Chat GPT, Mister know it all.
+  + Documenting King. Not always correct, but frequently inspiring.
