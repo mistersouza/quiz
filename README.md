@@ -119,6 +119,12 @@
 
 ![Home screenshot](assets/images/readme/quiz-home.webp)
 
+### Guide
+
+● It's again about minimalism, making friends with both small and large screens. It educates users on the game and lets them make the call. [Read and blue pills](assets/images/readme/quiz-pills.webp | height=50)
+
+![Guide screenshot](assets/images/readme/quiz-guide.webp)
+
 ## Deployment 🚀
 
 markdown_extensions:
