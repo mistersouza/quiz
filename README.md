@@ -162,3 +162,25 @@
 + I've got a thing for those numbers that light up in vibrant green.
   
 ![Lighthouse report](assets/images/readme/quiz-lighthouse-report.webp)
+
+### Bug Fixes
+
++ I've learned a lot by conquering those pesky logical bugs in this project. Some were straightforward, while others... not so much. I've grown to appreciate them, almost like I would a stern teacher.
+
+It took a little time to move up loadQuestion in order the get the right questions loaded.
+
+```javascript
+next.addEventListener('click', () => {
+    if (question < 5) {
+        loadQuestions(question);
+        document.querySelector('.quiz__footer--count').innerHTML = ++question;
+    } else {
+        showResults();
+    }
+    next.classList.add('disabled');
+});
+```
+
+### Unfixed Bugs
+
++ The signup link doesn't light up when the related section scrolls into view. No worries, though; we're on it, making sure to iron out this bug while we're pumping up overall interactivity.
