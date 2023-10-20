@@ -18,9 +18,9 @@
 
 [Software](https://github.com/mistersouza/quiz#software)
 
-[Media](https://github.com/mistersouza/quiz/README.md#media)
+[Media](https://github.com/mistersouza/quiz#media)
 
-[Credits](https://github.com/mistersouza/quiz/README.md#credits)
+[Credits](https://github.com/mistersouza/quiz#credits)
 
 ## Planning & Development
 
