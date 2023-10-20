@@ -121,7 +121,7 @@
 
 ### Guide
 
-● It's again about minimalism, making friends with both small and large screens. It educates users on the game and lets them make the call <img src="assets/images/readme/quiz-pills.webp" width="35">
+● It's again about minimalism, making friends with both small and large screens. It educates users on the game and lets them make the call <img src="assets/images/readme/quiz-pills.webp" width="45">
 
 ![Guide screenshot](assets/images/readme/quiz-guide.webp)
 
@@ -142,9 +142,9 @@
 markdown_extensions:
     - attr_list
 
-● We pushed the app live [here](https://mistersouza.github.io/quiz/){:target="_blank" rel="noopener"}
+● We pushed the app live ![here](https://mistersouza.github.io/quiz/){:target="_blank" rel="noopener"}
 
-+ See how we rocked it with [GitHub Pages](https://youtu.be/DqjPr7auwdY?si=CMQMCvASxNmIDD3e){:target="_blank" rel="noopener"}
++ See how we rocked it with ![GitHub Pages](https://youtu.be/DqjPr7auwdY?si=CMQMCvASxNmIDD3e){:target="_blank" rel="noopener"}
 
 ## Testing 🔎
 
@@ -153,3 +153,9 @@ markdown_extensions:
 ### Assessment
 
 + We've been rocking Google DevTools to check how our site dances in real-time, making sure it grooves smoothly on various devices browsers and connection speeds. Tho, no automatic test is in place right now, we've got every click and swipe covered to ensure it's all smooth sailing.
+
+### Validation
+
++ We've gone through every line of code with a fine-tooth comb, and guess what? The W3C validators gave us a thumbs-up across the board.
+
+![W3C validator check](assets/images/readme/quiz-w3c-validators.webp)

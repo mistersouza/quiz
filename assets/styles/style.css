@@ -22,9 +22,13 @@ body {
 }
 
 p,
-h1,
-h2 {
+h2,
+h3 {
     overflow-wrap: break-word;
+}
+
+h1 {
+    display: none;
 }
 
 p {
@@ -50,7 +54,7 @@ section {
     margin: 0 auto;
 }
 
-article {
+.box {
     display: flex;
     flex-direction: column;
     gap: 1rem;
