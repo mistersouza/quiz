@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Test your JavaScript skills with our interactive quiz. Challenge yourself with coding questions, improve your problem-solving abilities, and have fun learning JavaScript."
+    />
+    <meta
+      name="keywords"
+      content="quiz, app, JavaScript, interactive, learning"
+    />
+    <meta name="author" content="Thiago Souza" />
     <!-- Favicon -->
     <link
       rel="apple-touch-icon"
@@ -33,64 +42,74 @@
   </head>
   <body>
     <main>
-        <!-- Home -->
+      <!-- Home -->
+      <h1>Quiz_</h1>
       <section id="home" class="home">
-        <article class="home__container">
-          <h1 class="home__title">// Script masters quiz_</h1>
+        <div class="home__container box">
+          <h2 class="home__title">// Script masters quiz_</h2>
           <p>
             Your Cool Coding Challenge. For devs, geeks, and everyone in
             between. Test your code skills, have a blast, and learn along the
             way.
           </p>
-          <button class="home__button" role="link" href="#guide">start()</button>
-        </article>
+          <button class="home__button">start()</button>
+        </div>
       </section>
       <!-- Guide -->
-    <section id="guide" class="guide">
-        <article class="guide__container">
-            <h2 class="guide__title">// How to play_</h2>
-            <p>Answer the questions below to test your knowledge of JavaScript, HTML, and CSS. You'll get one point for each
-                correct answer. At the end of the quiz, your total score will be displayed. Maximum score is 10 points. Good
-                luck!</p>
-            <div class="guide__buttons">
-                <button class="guide__button button--quit">quit()</button>
-                <button class="guide__button button--play">play()</button>
+      <section id="guide" class="guide">
+        <div class="guide__container box">
+          <h2 class="guide__title">// How to play_</h2>
+          <p>
+            Answer the questions below to test your knowledge of JavaScript,
+            HTML, and CSS. You'll get one point for each correct answer. At the
+            end of the quiz, your total score will be displayed. Maximum score
+            is 10 points. Good luck!
+          </p>
+          <div class="guide__buttons">
+            <button class="guide__button button--quit">quit()</button>
+            <button class="guide__button button--play">play()</button>
+          </div>
+        </div>
+      </section>
+      <!-- Quiz -->
+      <section id="quiz" class="quiz">
+        <div class="quiz__container box">
+          <div class="quiz__header">
+            <p class="quiz__header--label">
+              score (<span class="quiz__header--score">0</span>)
+            </p>
+          </div>
+          <h3 class="quiz__title">
+            <span>//</span>
+          </h3>
+          <div class="quiz__options"></div>
+          <div class="quiz__footer">
+            <p class="quiz__footer--label">
+              question:<span class="quiz__footer--count">1</span>of<span
+                >5</span
+              >
+            </p>
+            <button class="quiz__button quiz__button--next">next()</button>
+          </div>
+        </div>
+      </section>
+      <!-- Results -->
+      <section class="results" id="results">
+        <div class="results__box box">
+          <div class="results__header">
+            <h3 class="results__title">//</h3>
+          </div>
+          <div class="results__progress__box">
+            <div class="results__progress__bar">
+              <span class="results__progress__bar__score">0%</span>
             </div>
-        </article>
-    </section>
-    <!-- Quiz -->
-    <section id="quiz" class="quiz">
-        <article class="quiz__container">
-            <div class="quiz__header">
-                <p class="quiz__header--label">score (<span class="quiz__header--score">0</span>)</p>
-            </div>
-            <h3 class="quiz__title">
-                <span>//</span>
-            </h3>
-            <div class="quiz__options"></div>
-            <div class="quiz__footer">
-                <p class="quiz__footer--label">question:<span class="quiz__footer--count">1</span>of<span>5</span></p>
-                <button class="quiz__button quiz__button--next">next()</button>
-            </div>
-        </article>
-    </section>
-    <!-- Results -->
-    <section class="results" id="results" >
-        <article class="results__box">
-            <div class="results__header">
-                <h3 class="results__title"></h3>
-            </div>
-            <div class="results__progress__box">
-                <div class="results__progress__bar">
-                    <span class="results__progress__bar__score">0%</span>
-                </div>
-            </div>
-            <di class="results__buttons">
-                <button class="results__button button--home">home()</button>
-                <button class="results__button button--again">again()</button>
-            </div>
-        </article>
-    </section>
+          </div>
+          <div class="results__buttons">
+            <button class="results__button button--home">home()</button>
+            <button class="results__button button--again">again()</button>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- Scripts -->
     <script src="assets/scripts/questions.js"></script>
